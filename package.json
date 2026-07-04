@@ -1,0 +1,33 @@
+{
+  "name": "my-zizo",
+  "version": "1.0.0",
+  "description": "Trigger.dev project — Phase 3: Hosting and Deployment",
+  "type": "module",
+  "scripts": {
+    "dev": "trigger.dev@latest dev",
+    "deploy": "trigger.dev@latest deploy",
+    "login": "trigger.dev@latest login"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awahmedwael8-tech/my-zizo.git"
+  },
+  "keywords": [
+    "trigger.dev",
+    "background-jobs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awahmedwael8-tech/my-zizo/issues"
+  },
+  "homepage": "https://github.com/awahmedwael8-tech/my-zizo#readme",
+  "dependencies": {
+    "@trigger.dev/sdk": "^4.5.0"
+  },
+  "devDependencies": {
+    "@trigger.dev/build": "^4.5.0",
+    "@types/node": "^26.1.0",
+    "typescript": "^6.0.3"
+  }
+}
